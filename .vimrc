@@ -23,11 +23,13 @@ call vundle#end()
 syntax on
 color jellybeans
 filetype plugin indent on
+
 set number
 set relativenumber
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+set encoding=utf-8
 
 " Show file stats
 set ruler
@@ -35,14 +37,14 @@ set ruler
 " Blink cursor on error instead of beeping (grr)
 set visualbell
 
-set encoding=utf-8
 
 " Status bar
 set laststatus=2
 
+" Fix slow scrolling
 set ttyfast
 
-" Insert closing parens
+" Insert closing curly braces
 inoremap {<CR>  {<CR>}<Esc>O
 
 " Open NERDTree automatically when vim starts up on opening a directory
