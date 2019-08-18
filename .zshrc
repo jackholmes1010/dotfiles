@@ -81,8 +81,6 @@ export MOBAPI_ENV='jack'
 export MOBAPI_STAGE='rel'
 export MOBAPI_DOMAIN_PREFIX='jack-'
 export MOBAPI_AWS_PROFILE='mobapi-dev'
-#export MOBILE_GATEWAY_API_BASE_URL='https://jack-api.mobile.vacasadev.io/v1'
-#export MOBILE_GATEWAY_API_KEY='mAprNXh2RBtdGDZBsRpZVvcMfBfzUPpBYvYsoQpkxZemKeeXRjQwMFcjvv9qsQmC'
 
 alias init="/Users/jholmes/dev/init_node/init.sh"
 
@@ -99,11 +97,4 @@ alias remjack-sumo='cd $MOB_API_DIR && make sumo-remove && cd $OLDPWD'
 alias depjackf='api && sls deploy function -f mobApiRequest --stage rel --env jack --aws-profile mobapi-dev && cd $OLDPWD'
 alias test='npm run test'
 alias jacklogs='serverless logs --stage rel --env jack --function mobApiRequest --aws-profile mobapi-dev'
-
-export TEST_TRIP_API_BASE_URL=https://trip-api.guest.vacasadev.io/api
-export TEST_TRIP_API_AUDIENCE=trip-api.guest.vacasastage.io
-export TEST_IDP_IMPLICIT_CLIENT_ID=VCJ6juPc7HCDiKWWjSgYi1mAMO2hzEihzC1lkyDx
-export TEST_IDP_ENDPOINT=https://stage.accounts.vacasa.io
-export TEST_USER_EMAIL=vacasa.app.tester@gmail.com
-export TEST_USER_PASSWORD='kNCye3&c3nC4AJAu'
 
