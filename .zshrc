@@ -54,13 +54,13 @@ export NVM_DIR="$HOME/.nvm"
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /Users/jholmes/Downloads/mobile-gateway-api/services/mobapi/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/jholmes/Downloads/mobile-gateway-api/services/mobapi/node_modules/tabtab/.completions/serverless.zsh
+[[ -f ~/Downloads/mobile-gateway-api/services/mobapi/node_modules/tabtab/.completions/serverless.zsh ]] && . ~/Downloads/mobile-gateway-api/services/mobapi/node_modules/tabtab/.completions/serverless.zsh
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /Users/jholmes/Downloads/mobile-gateway-api/services/mobapi/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/jholmes/Downloads/mobile-gateway-api/services/mobapi/node_modules/tabtab/.completions/sls.zsh
+[[ -f ~/Downloads/mobile-gateway-api/services/mobapi/node_modules/tabtab/.completions/sls.zsh ]] && . ~/Downloads/mobile-gateway-api/services/mobapi/node_modules/tabtab/.completions/sls.zsh
 # tabtab source for slss package
 # uninstall by removing these lines or running `tabtab uninstall slss`
-[[ -f /Users/jholmes/Downloads/mobile-gateway-api/services/mobapi/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/jholmes/Downloads/mobile-gateway-api/services/mobapi/node_modules/tabtab/.completions/slss.zsh
+[[ -f ~/Downloads/mobile-gateway-api/services/mobapi/node_modules/tabtab/.completions/slss.zsh ]] && . ~/Downloads/mobile-gateway-api/services/mobapi/node_modules/tabtab/.completions/slss.zsh
 
 ZSH_THEME="spaceship"
 
