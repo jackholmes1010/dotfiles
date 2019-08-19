@@ -15,6 +15,7 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'valloric/youcompleteme'
 Plugin 'scrooloose/nerdtree'
+Plugin 'quramy/tsuquyomi'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
