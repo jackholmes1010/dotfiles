@@ -60,3 +60,6 @@ autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in
 " map <,,l> <C-W>l
 map ,w <C-w>w
 
+" Map FZF shortcuts
+map ,,s :FZF<Enter>
+

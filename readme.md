@@ -9,3 +9,11 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 - `<C-]>` - go to definition
 - `<C-^>` - find references
 
+## fzf ❤️ vim - Fuzzy File Search
+https://github.com/junegunn/fzf.vim
+- `:FZF` - open fzf
+- `,,s` - open fzf
+- `CTRL + T` - open file in new tab
+- `CTRL + X` - open in vertical pane
+- `CTRL + V` - open in horizontal pane
+
