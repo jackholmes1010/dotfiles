@@ -25,7 +25,6 @@ call vundle#end()
 " -- Vundle end
 
 syntax on
-" color jellybeans
 color OceanicNext
 filetype plugin indent on
 
@@ -42,7 +41,6 @@ set ruler
 
 " Blink cursor on error instead of beeping (grr)
 set visualbell
-
 
 " Status bar
 set laststatus=2
