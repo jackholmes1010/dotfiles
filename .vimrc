@@ -18,6 +18,7 @@ Plugin 'quramy/tsuquyomi'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 Plugin 'morhetz/gruvbox'
+Plugin 'w0rp/ale'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -68,4 +69,13 @@ map ,,s :FZF<Enter>
 
 " Make NERDTree open on the right
 let g:NERDTreeWinPos = "right"
+
+" Configure tslint with ale
+let g:ale_linters = { 'typescript': ['tsserver', 'tslint'] }
+
+" Configure typescript fixer for ale
+let g:ale_fixers = { 'typescript': ['tslint'] }
+
+" Configure ale to auto-fix on save
+let g:ale_fix_on_save = 1
 
