@@ -16,6 +16,7 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 ## TSUQUYOMI - Typescript Plugin
 - `<C-]>` - go to definition
 - `<C-^>` - find references
+- `:TsuGeterr` - go to error
 
 ## fzf ❤️ vim - Fuzzy File Search
 https://github.com/junegunn/fzf.vim
