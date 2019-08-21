@@ -82,6 +82,8 @@ export MOBAPI_STAGE='rel'
 export MOBAPI_DOMAIN_PREFIX='jack-'
 export MOBAPI_AWS_PROFILE='mobapi-dev'
 
+alias home="cd ~/"
+
 alias init="/Users/jholmes/dev/init_node/init.sh"
 
 alias api='cd $MOB_API_DIR/services/mobapi'
