@@ -17,13 +17,15 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'quramy/tsuquyomi'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
+Plugin 'morhetz/gruvbox'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
 " -- Vundle end
 
 syntax on
-color jellybeans
+" color jellybeans
+color OceanicNext
 filetype plugin indent on
 
 set number
@@ -32,6 +34,7 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set encoding=utf-8
+set linespace=4
 
 " Show file stats
 set ruler
@@ -62,4 +65,7 @@ map ,w <C-w>w
 
 " Map FZF shortcuts
 map ,,s :FZF<Enter>
+
+" Make NERDTree open on the right
+let g:NERDTreeWinPos = "right"
 
