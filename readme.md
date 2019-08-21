@@ -3,7 +3,13 @@ mv ~/.zshrc ~/.zshrc.old && \
 ln -s ~/dotfiles/.zshrc ~/.zshrc && \
 mv ~/.vimrc ~/.vimrc.old && \
 ln -s ~/dotfiles/.vimrc ~/.vimrc
+
 ```
+## Pre-requisites
+- `brew install macvim`
+- `echo "alias vim='mvim -v'" >> ~/.zshrc`
+- `brew install fzf`
+- `brew install ag`
 ## General
 - `,w` - switch pane
 
