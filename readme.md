@@ -25,6 +25,10 @@ https://github.com/junegunn/fzf.vim
 - `CTRL + X` - open in vertical pane
 - `CTRL + V` - open in horizontal pane
 
+### Ag
+https://github.com/ggreer/the_silver_searcher
+- `:Ag`
+
 ## NERDTree
 - `:NERDTreeFind` - display open file in NERDTree
 
