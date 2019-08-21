@@ -40,3 +40,8 @@ https://github.com/tomtom/tcomment_vim
 ## ALE
 https://github.com/dense-analysis/ale
 - `:ALEFix` - auto-fix
+
+## Easymotion
+https://github.com/easymotion/vim-easymotion
+- `<Leader><Leader>w` - trigger word motion down
+- `<Leader><Leader>b` - trigger word motion up
