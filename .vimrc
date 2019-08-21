@@ -79,3 +79,6 @@ let g:ale_fixers = { 'typescript': ['tslint'] }
 " Configure ale to auto-fix on save
 let g:ale_fix_on_save = 1
 
+" Tsu go to definition shortcut
+map gdd <C-]>
+

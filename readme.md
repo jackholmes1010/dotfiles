@@ -14,8 +14,9 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 - `,w` - switch pane
 
 ## TSUQUYOMI - Typescript Plugin
-- `<C-]>` - go to definition
+- `<C-]>`, `gdd` - go to definition
 - `<C-^>` - find references
+- `<C-t>` - move the cursor to the last location `<C-]>` was typed
 - `:TsuGeterr` - go to error
 
 ## fzf ❤️ vim - Fuzzy File Search
