@@ -22,3 +22,6 @@ https://github.com/junegunn/fzf.vim
 ## NERDTree
 - `:NERDTreeFind` - display open file in NERDTree
 
+## tcomment_vim
+https://github.com/tomtom/tcomment_vim
+- `gcc` - toggle line comment
