@@ -5,7 +5,7 @@ mv ~/.vimrc ~/.vimrc.old && \
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 ```
 ## General
-- `,,w` - switch pane
+- `,w` - switch pane
 
 ## TSUQUYOMI - Typescript Plugin
 - `<C-]>` - go to definition
