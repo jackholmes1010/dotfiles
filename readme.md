@@ -35,3 +35,7 @@ https://github.com/ggreer/the_silver_searcher
 ## tcomment_vim
 https://github.com/tomtom/tcomment_vim
 - `gcc` - toggle line comment
+
+## ALE
+https://github.com/dense-analysis/ale
+- `:ALEFix` - auto-fix
