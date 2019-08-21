@@ -4,6 +4,8 @@ ln -s ~/dotfiles/.zshrc ~/.zshrc && \
 mv ~/.vimrc ~/.vimrc.old && \
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 ```
+## General
+- `,,w` - switch pane
 
 ## TSUQUYOMI - Typescript Plugin
 - `<C-]>` - go to definition
@@ -16,4 +18,7 @@ https://github.com/junegunn/fzf.vim
 - `CTRL + T` - open file in new tab
 - `CTRL + X` - open in vertical pane
 - `CTRL + V` - open in horizontal pane
+
+## NERDTree
+- `:NERDTreeFind` - display open file in NERDTree
 
