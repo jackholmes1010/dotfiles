@@ -1,8 +1,13 @@
 ```bash
 mv ~/.vimrc ~/.vimrc.old && \
 ln -s ~/dotfiles/.vimrc ~/.vimrc
-
 ```
+## Install YouCompleteMe With Typescript
+```
+cd ~/.vim/bundle/youcompleteme && \
+python install.py --ts-completer
+```
+
 ## Pre-requisites
 - `brew install macvim`
 - `echo "alias vim='mvim -v'" >> ~/.zshrc`
