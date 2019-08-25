@@ -21,6 +21,8 @@ Plugin 'morhetz/gruvbox'
 Plugin 'w0rp/ale'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'easymotion/vim-easymotion'
+Plugin 'dracula/vim'
+Plugin 'junegunn/seoul256.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
