@@ -29,7 +29,7 @@ call vundle#end()
 " -- Vundle end
 
 syntax on
-color OceanicNext
+color dracula
 filetype plugin indent on
 
 set number
